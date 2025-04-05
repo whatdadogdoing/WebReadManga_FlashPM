@@ -1,30 +1,61 @@
-# 📖 MangaFlashPM
+# 📚 Online Manga Reader Website
 
-**WebReadMangaDex** là một nền tảng đọc truyện trực tuyến sử dụng API từ [MangaDex](https://api.mangadex.org). Dự án được phát triển bằng PHP thuần kết hợp với MySQL để cung cấp trải nghiệm đọc truyện nhanh, mượt mà và tối ưu.
+> A modern web application for reading manga online, supporting user authentication via Google and Facebook, search filters, and reading history tracking using APIs.
 
-## 🚀 Tính Năng Chính
+## 🌟 Key Features
 
-✅ Tìm kiếm và hiển thị danh sách truyện từ **MangaDex API**  
-✅ Xem chi tiết truyện, danh sách chapter và nội dung chương  
-✅ Lưu lịch sử đọc truyện của người dùng 
-✅ Thiết kế giao diện thân thiện, responsive  
-✅ Tải nhanh và tối ưu SEO  
+### 🔐 1. Authentication with Google and Facebook
+- Secure login via **Google** and **Facebook** OAuth.
+- Also supports traditional email/password login.
+- Uses **JWT** for session handling.
 
----
-
-## 🏗️ Công Nghệ Sử Dụng
-
-- **Ngôn ngữ lập trình:** PHP thuần  
-- **Cơ sở dữ liệu:** PHPMyAdmin
-- **API:** [MangaDex API](https://api.mangadex.org/docs.html)  
-- **Giao diện:** HTML, CSS, JavaScript  
-- **Thư viện hỗ trợ:** cURL, JSON  
+![Login Page](./login.png)
 
 ---
 
-## 📌 Cách Cài Đặt và Chạy Dự Án
+### 🔎 2. Advanced Manga Search
+- Filter manga by **title**, **genre**, **status**, and **sort order**.
+- Genre filter includes tags like Action, Romance, Fantasy, etc.
 
-### 1️⃣ **Clone Repository**
-```sh
-git clone https://github.com/your-username/WebReadMangaDex.git
-cd WebReadMangaDex
+![Advanced Search](./search.png)
+
+---
+
+### 🕮 3. Reading History
+- Automatically tracks user's reading activity.
+- Shows last read **chapter** and **timestamp** for each manga.
+
+📌 On **Dashboard**:
+
+![User History - Dashboard](./history1.png)
+
+📌 On **Home Page**:
+
+![Reading History - Homepage](./history.png)
+
+---
+
+## ⚙️ Technologies Used
+
+- **Frontend**: HTML, CSS, JavaScript, EJS
+- **Backend**: Node.js (Express), JWT, OAuth 2.0
+- **Database**: MySQL (with Sequelize)
+- **API Integration**: MangaDex API
+- **Auth Libraries**: Google & Facebook OAuth
+
+---
+
+## 👤 Developer
+
+- Role: Fullstack Developer (Student Project)
+- Email: ngqbinh456@gmail.com
+
+---
+
+## 📝 Setup & Run
+
+```bash
+git clone https://github.com/your-username/manga-reader.git
+cd manga-reader
+npm install
+npm start
