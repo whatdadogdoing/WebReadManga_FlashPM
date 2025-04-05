@@ -9,7 +9,7 @@
 - Also supports traditional email/password login.
 - Uses **JWT** for session handling.
 
-![Login Page](./login.png)
+![Login Page](./image//login.png)
 
 ---
 
@@ -17,7 +17,7 @@
 - Filter manga by **title**, **genre**, **status**, and **sort order**.
 - Genre filter includes tags like Action, Romance, Fantasy, etc.
 
-![Advanced Search](./search.png)
+![Advanced Search](./image//search.png)
 
 ---
 
@@ -27,11 +27,11 @@
 
 📌 On **Dashboard**:
 
-![User History - Dashboard](./history1.png)
+![User History - Dashboard](./image/history1.png)
 
 📌 On **Home Page**:
 
-![Reading History - Homepage](./history.png)
+![Reading History - Homepage](./image//history.png)
 
 ---
 
